@@ -6,11 +6,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class RandomNumCheck_8Test {
-    RandomNumCheck_8 obj;
+public class RandomNumCheckTest {
+    RandomNumCheck obj;
     @Before
     public void setUp() throws Exception {
-        obj = new RandomNumCheck_8();
+        obj = new RandomNumCheck();
     }
 
     @After

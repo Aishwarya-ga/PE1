@@ -3,7 +3,7 @@ package com.unit.Junittest;
 import java.util.Random;
 import java.util.Scanner;
 
-public class RandomNumCheck_8 {
+public class RandomNumCheck {
     public String checkNumber(int check){
         Random random = new Random();
         int rand_int;

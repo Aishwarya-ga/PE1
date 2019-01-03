@@ -6,11 +6,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CheckUppercaseLowercaseDigitSpecialchar_6Test {
-    CheckUppercaseLowercaseDigitSpecialchar_6 ob;
+public class CheckUppercaseLowercaseDigitSpecialcharTest {
+    CheckUppercaseLowercaseDigitSpecialchar ob;
     @Before
     public void setUp() throws Exception {
-        ob = new CheckUppercaseLowercaseDigitSpecialchar_6();
+        ob = new CheckUppercaseLowercaseDigitSpecialchar();
     }
 
     @After

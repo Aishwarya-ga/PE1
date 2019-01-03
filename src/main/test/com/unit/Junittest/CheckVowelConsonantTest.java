@@ -6,11 +6,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CheckVowelConsonant_3Test {
-    CheckVowelConsonant_3  ob;
+public class CheckVowelConsonantTest {
+    CheckVowelConsonant ob;
     @Before
     public void setUp() throws Exception {
-        ob = new CheckVowelConsonant_3();
+        ob = new CheckVowelConsonant();
     }
 
     @After

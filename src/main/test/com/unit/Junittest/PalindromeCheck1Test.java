@@ -6,8 +6,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Palindrome_1Test {
-    Palindrome_1 ob;
+public class PalindromeCheck1Test {
+    PalindromeCheck ob;
     @After
     public void tearDown() throws Exception {
        ob = null;
@@ -15,7 +15,7 @@ public class Palindrome_1Test {
 
     @Before
     public void setUp() throws Exception {
-        ob = new Palindrome_1();
+        ob = new PalindromeCheck();
 
     }
 

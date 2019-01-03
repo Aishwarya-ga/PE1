@@ -3,7 +3,7 @@ package com.unit.Junittest;
 
 import java.util.Scanner;
 
-public class LoopPrint_4 {
+public class LoopPrint {
     String loopPrint(int number){
         String string = "";
     /*loop for printing the number as 122333444455555....etc*/
@@ -23,7 +23,7 @@ public class LoopPrint_4 {
         System.out.println("Enter a number");
         int n =sc.nextInt();
 
-        LoopPrint_4 lp = new LoopPrint_4();
+        LoopPrint lp = new LoopPrint();
         System.out.println(lp.loopPrint(n));
     }
 

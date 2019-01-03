@@ -6,11 +6,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class SortNumbers_7Test {
-    SortNumbers_7 ob;
+public class SortNumbersTest {
+    SortNumbers ob;
     @Before
     public void setUp() throws Exception {
-       ob = new SortNumbers_7();
+       ob = new SortNumbers();
     }
 
     @After

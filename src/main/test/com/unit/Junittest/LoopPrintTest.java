@@ -6,11 +6,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class LoopPrint_4Test {
-    LoopPrint_4 ob;
+public class LoopPrintTest {
+    LoopPrint ob;
     @Before
     public void setUp() throws Exception {
-        ob = new LoopPrint_4();
+        ob = new LoopPrint();
     }
 
     @After

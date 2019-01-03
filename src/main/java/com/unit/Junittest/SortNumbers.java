@@ -1,6 +1,6 @@
 package com.unit.Junittest;
 
-public class SortNumbers_7 {
+public class SortNumbers {
 
     public int sumOfNumbers(int input) {
         int[] arr = new int[20];

@@ -1,7 +1,7 @@
 package com.unit.Junittest;
 
 
-public class Palindrome_1 {
+public class PalindromeCheck {
      String palindrome_1(long num) {
 
         long digit;

@@ -6,11 +6,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CheckEvenOdd_2Test {
-    CheckEvenOdd_2 ob;
+public class CheckEvenOddTest {
+    CheckEvenOdd ob;
     @Before
     public void setUp() throws Exception {
-        ob = new CheckEvenOdd_2();
+        ob = new CheckEvenOdd();
     }
 
     @After

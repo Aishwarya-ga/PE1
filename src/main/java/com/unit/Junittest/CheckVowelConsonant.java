@@ -2,7 +2,7 @@ package com.unit.Junittest;
 
 import java.util.Scanner;
 
-public class CheckVowelConsonant_3 {
+public class CheckVowelConsonant {
     public static String checkVowelConsonant(String input) {
         String string;
         string = input.toLowerCase();

@@ -2,7 +2,7 @@ package com.unit.Junittest;
 
 import static java.lang.Character.*;
 
-public class CheckUppercaseLowercaseDigitSpecialchar_6 {
+public class CheckUppercaseLowercaseDigitSpecialchar {
     public String checkInput(String character){
 
         char ch = character.charAt(0);

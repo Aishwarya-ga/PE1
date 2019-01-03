@@ -1,6 +1,6 @@
 package com.unit.Junittest;
 
-public class CheckEvenOdd_2 {
+public class CheckEvenOdd {
     String checkEvenOdd(int number) {
         /*condition for checking a number is even*/
         if (number % 2 == 0) {
