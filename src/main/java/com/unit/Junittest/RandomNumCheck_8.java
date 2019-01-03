@@ -8,7 +8,7 @@ public class RandomNumCheck_8 {
         Random random = new Random();
         int rand_int;
         rand_int = random.nextInt(50);
-        rand_int = 29;
+//        rand_int = 29;
 //        Sys
         /*checking for conditions*/
         if(check < rand_int && check > -1){

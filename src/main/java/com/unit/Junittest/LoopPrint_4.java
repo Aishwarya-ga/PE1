@@ -10,7 +10,7 @@ public class LoopPrint_4 {
         for(int i = 1; i <= number; i++){
         for(int j = 1; j <= i; j++){
             string = string + i;
-            string = string +"";
+            string = string +"1";
         }
     }
         return string;
