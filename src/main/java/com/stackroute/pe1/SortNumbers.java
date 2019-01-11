@@ -1,7 +1,18 @@
-package com.unit.Junittest;
+/*Write a program which accepts a number as input from user and perform the following:
+*        a. sort the number in non-increasing order
+*        b. after sorting sum all the even numbers, the sum should be greater than 15 .
+*        c. if sum is more than 15,then print output as true or false.
+
+*        Input  : 234534
+*        Output : Sorted number in non-increasing order : 544332
+*        Sum of even numbers : 10
+*        False*/
+package com.stackroute.pe1;
 
 public class SortNumbers {
-
+    /*
+    method to sort and sum the sorted numbers
+     */
     public int sumOfNumbers(int input) {
         int[] arr = new int[20];
         int s, i;
@@ -26,13 +37,6 @@ public class SortNumbers {
                 sum += arr[k];
         }
         return sum;
-//        if(sum>15) {                 /*If sum is greater than 15*/
-//        System.out.println("True");
-//    }
-//        else {                      /*If sum is less than 15*/
-//        System.out.println("False");
-//    }
-
     }
 }
 

@@ -1,4 +1,4 @@
-package com.unit.Junittest;
+package com.stackroute.pe1;
 
 import org.junit.After;
 import org.junit.Before;
@@ -7,23 +7,27 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ReverseStringTest {
-    ReverseString obj;
+    ReverseString reverseString;
     @Before
     public void setUp() throws Exception {
-        obj = new ReverseString();
+        reverseString = new ReverseString();
     }
 
     @After
     public void tearDown() throws Exception {
-        obj = null;
+        reverseString = null;
     }
 
     @Test
-    public void reverse() {
+    public void reverseSuccess() {
         String expectedValue = "nodnol";
         //Act
-        String actualValue = obj.reverse("london");
+        String actualValue = reverseString.reverse("london");
         //assert
         assertEquals(expectedValue,actualValue);
+    }
+    @Test
+    public void reverseFailure(){
+        assertEquals(" ", reverseString.reverse(" "));
     }
 }
