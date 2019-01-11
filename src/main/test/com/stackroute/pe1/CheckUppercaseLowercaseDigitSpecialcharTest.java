@@ -18,37 +18,34 @@ public class CheckUppercaseLowercaseDigitSpecialcharTest {
     public void tearDown() throws Exception {
         checkUppercaseLowercaseDigitSpecialchar = null;
     }
-
+    /* method to test success*/
     @Test
-    public void TestcheckInput_Success() {
-        String expectedValue_1 = "capital letter";
+    public void TestcheckInputSuccess() {
+        String expectedValue1 = "capital letter";
         //Act
-        String actualValue_1 = checkUppercaseLowercaseDigitSpecialchar.checkInput("A");
+        String actualValue1 = checkUppercaseLowercaseDigitSpecialchar.checkInput("A");
         //Assert
-        assertEquals(expectedValue_1,actualValue_1);
+        assertEquals(expectedValue1,actualValue1);
 
-        String expectedValue_2 = "small letter";
+        String expectedValue2 = "small letter";
         //Act
-        String actualValue_2 = checkUppercaseLowercaseDigitSpecialchar.checkInput("a");
+        String actualValue2 = checkUppercaseLowercaseDigitSpecialchar.checkInput("a");
         //Assert
-        assertEquals(expectedValue_1,actualValue_1);
+        assertEquals(expectedValue2,actualValue2);
 
-        String expectedValue_3 = "Digit";
+        String expectedValue3 = "Digit";
         //Act
-        String actualValue_3 = checkUppercaseLowercaseDigitSpecialchar.checkInput("1");
+        String actualValue3 = checkUppercaseLowercaseDigitSpecialchar.checkInput("1");
         //Assert
-        assertEquals(expectedValue_3,actualValue_3);
-
-
+        assertEquals(expectedValue3,actualValue3);
     }
+    /* method to test failure*/
     @Test
     public void TestcheckInput_Failure() {
-        String expectedValue_1 = "Special character";
+        String expectedValue1 = "Special character";
         //Act
-        String actualValue_1 = checkUppercaseLowercaseDigitSpecialchar.checkInput("$");
+        String actualValue1 = checkUppercaseLowercaseDigitSpecialchar.checkInput("$");
         //Assert
-        assertEquals(expectedValue_1,actualValue_1);
-
-
+        assertEquals(expectedValue1,actualValue1);
     }
 }

@@ -17,7 +17,7 @@ public class AppendingStringTest {
     public void tearDown() throws Exception {
         appendingString = null;
     }
-
+    /* method to test success*/
     @Test
     public void appendSuccess() {
         String expectedValue = "stackrouterouterouterouterouterouteroute";
@@ -26,7 +26,7 @@ public class AppendingStringTest {
         //assert
         assertEquals(expectedValue,actualValue);
     }
-
+    /* method to test failure*/
     @Test
     public void appendFailure() {
         String expectedValue = null;

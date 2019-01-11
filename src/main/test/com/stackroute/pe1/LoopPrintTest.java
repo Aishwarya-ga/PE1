@@ -18,7 +18,7 @@ public class LoopPrintTest {
     public void tearDown() throws Exception {
         loopPrint = null;
     }
-
+    /* method to test success*/
     @Test
     public void loopPrintSuccess(){
         String expectedValue="122333";
@@ -27,6 +27,7 @@ public class LoopPrintTest {
         //assert
         assertEquals(expectedValue,actualValue);
     }
+    /* method to test failure*/
     @Test
     public void loopPrintFaiure() {
         assertNotEquals(" ",loopPrint.loopPrint(0));

@@ -17,7 +17,7 @@ public class RandomNumCheckTest {
     public void tearDown() throws Exception {
         randomNumCheck = null;
     }
-
+    /* method to test success*/
     @Test
     public void TestCheckNumberSuccess() {
         String expectedValue_1 = "Number guessed is lesser";
@@ -38,6 +38,7 @@ public class RandomNumCheckTest {
         //Assert
         assertEquals(expectedValue_3,actualValue_3);
     }
+    /* method to test failure*/
     @Test
     public void TestCheckNumberFailure() {
         String expectedValue_1 = "null";

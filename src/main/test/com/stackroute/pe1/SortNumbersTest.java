@@ -17,7 +17,7 @@ public class SortNumbersTest {
     public void tearDown() throws Exception {
         sortNumbers = null;
     }
-
+    /* method to test success*/
     @Test
     public void sumOfNumbersSuccess() {
         int expectedValue = 4;
@@ -26,8 +26,10 @@ public class SortNumbersTest {
         //assert
         assertEquals(expectedValue,actualValue);
     }
+    /* method to test failure*/
     @Test
     public void sumOfNumbersFailure(){
         assertNotEquals(" ",0);
+        
     }
 }

@@ -18,9 +18,9 @@ public class CheckEvenOddTest {
     public void tearDown() throws Exception {
         checkEvenOdd = null;
     }
-
+    /* method to test success*/
     @Test
-    public void TestCheckEvenOdd_Success() throws Exception {
+    public void TestCheckEvenOddSuccess() throws Exception {
         String expectedValue_1 = "jerry";
         //Act
         String actualValue_1 = checkEvenOdd.checkEvenOdd(22);
@@ -33,8 +33,9 @@ public class CheckEvenOddTest {
         //Asserts
         assertEquals(expectedValue_2,actualValue_2);
     }
+    /* method to test failure*/
     @Test
-    public void TestCheckEvenOdd_Failure() throws Exception {
+    public void TestCheckEvenOddFailure() throws Exception {
         String expectedValue = "not a valid input";
         //Act
         String actualValue = checkEvenOdd.checkEvenOdd(-1);

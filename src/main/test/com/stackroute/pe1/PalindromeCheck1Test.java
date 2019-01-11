@@ -16,7 +16,7 @@ public class PalindromeCheck1Test {
     public void setUp() throws Exception {
         palindromeCheck = new PalindromeCheck();
     }
-
+    /* method to test success*/
     @Test
     public void TestPalindromeSuccess() throws Exception {
         long num_1 = 988889;
@@ -34,10 +34,9 @@ public class PalindromeCheck1Test {
         //Assert
         assertEquals(expectedValue_2,actualValue_2);
     }
-
+    /* method to test success*/
     @Test
     public void TestPalindromeFailure() throws Exception {
-
         long num = 123432;
         String expectedValue = "not a Palidrome";
         //Act

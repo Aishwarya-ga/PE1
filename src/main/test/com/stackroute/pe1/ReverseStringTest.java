@@ -17,7 +17,7 @@ public class ReverseStringTest {
     public void tearDown() throws Exception {
         reverseString = null;
     }
-
+    /* method to test success*/
     @Test
     public void reverseSuccess() {
         String expectedValue = "nodnol";
@@ -26,8 +26,10 @@ public class ReverseStringTest {
         //assert
         assertEquals(expectedValue,actualValue);
     }
+    /* method to test success*/
     @Test
     public void reverseFailure(){
         assertEquals(" ", reverseString.reverse(" "));
+
     }
 }

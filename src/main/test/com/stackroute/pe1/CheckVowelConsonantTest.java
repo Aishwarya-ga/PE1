@@ -18,7 +18,7 @@ public class CheckVowelConsonantTest {
     public void tearDown() throws Exception {
         checkVowelConsonant = null;
     }
-
+    /* method to test success*/
     @Test
     public void TestCheckVowelConsonantSuccess() {
         String expectedValue_1 = "vowel";
@@ -33,10 +33,9 @@ public class CheckVowelConsonantTest {
         //Asserts
         assertEquals(expectedValue_2,actualValue_2);
     }
-
+    /* method to test failure*/
     @Test
     public void TestCheckVowelConsonantFailure() {
-
         String expectedValue = "invalid input";
         //Act
         String actualValue = checkVowelConsonant.checkVowelConsonant("1");

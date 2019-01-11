@@ -17,7 +17,7 @@ public class SumOfNumbersTest {
     public void tearDown() throws Exception {
         sumOfNumbers = null;
     }
-
+    /* method to test success*/
     @Test
     public void sumOfNumberSuccess() {
         String string = "12 13 2 4";
@@ -27,8 +27,10 @@ public class SumOfNumbersTest {
         //Assert
         assertEquals(expectedValue,actualValue);
     }
+    /* method to test failure*/
     @Test
     public void sumOfNumberFailure(){
         assertEquals(" "," ");
+
     }
 }
