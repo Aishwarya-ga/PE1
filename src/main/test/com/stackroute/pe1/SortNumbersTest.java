@@ -30,6 +30,6 @@ public class SortNumbersTest {
     @Test
     public void sumOfNumbersFailure(){
         assertNotEquals(" ",0);
-        
+
     }
 }
